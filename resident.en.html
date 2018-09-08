@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title></title>
+  <meta name="description" content="Your Local Area">
+  <meta name="author" content="Team108">
+
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body style="text-align: center;">
+  	<script src="js/navigation.js"></script>
+
+	<div class="hero is-fullheight">
+
+	<section>
+		<div class="hero-body">
+		<div class="container">
+		  <h3 class="title is-3" style="font-size: 64px;">Your Local Area</h3>
+		  <h1 class="title is-1" style="font-size: 98px; font-style: bold;"><i>Kingston</i></h1>
+		</div>
+		</div>
+
+		<div class="tile is-ancestor" style="margin-bottom: 0px;">
+		  <div class="tile" onclick="goTo('about')">
+		    <article class="tile is-child notification hack-notification" style="background-image: url('images/kingston.png'); background-position:center;">
+	          <h1 class="title is-1">About This Area</h1>
+	        </article>
+		  </div>
+		  <div class="tile">
+		    <article class="tile is-child notification hack-notification" onclick="goTo('on_this_day')" style="background-image: url('images/on_this_day.png'); background-size: cover;">
+	          <h1 class="title is-1">On This Day</h1>
+	        </article>
+		  </div>
+		</div>
+
+		<div class="tile">
+		    <article class="tile is-child notification hack-notification" style="background-image: url('images/kingston_area.png'); background-size: cover; background-position: center;">
+	          <h1 class="title is-1">What's your council doing for you?</h1>
+	        </article>
+		</div>
+
+		<div class="tile">
+		    <article class="tile is-child notification hack-notification" style="background-image: url('images/map.png'); background-size: cover; background-position: center;">
+	          <h1 class="title is-1">Who lives in Kingston?</h1>
+	        </article>
+		</div>
+
+		<div class="tile">
+		    <article class="tile is-child notification hack-notification" onclick="goTo('events')" style="background-image: url('images/kingston_events.png'); background-position: bottom; background-size: cover;">
+	          <h1 class="title is-1">Upcoming Events</h1>
+	        </article>
+		</div>	
+
+		<div class="bordered" style="margin: 20px;">
+			<h1 class="title is-1" style="padding-top:10px;">Local Services</h1>
+			<div class="tile is-thin is-parent is-horizontal">
+		        <article class="tile is-child notification hack-border">
+		          <img src="icons/hospital.png" alt="Hospitals">
+		        </article>
+		        <article class="tile is-child notification hack-border">
+		          <img src="icons/school.png" alt="Schools">
+		        </article>
+	      	</div>
+	      	<div class="tile is-thin is-horizontal">
+		        <article class="tile is-child notification hack-border" onclick="goTo('sports')">
+		          <img src="icons/sports.png" alt="Sport and Recreation Grounds">
+		        </article>
+		        <article class="tile is-child notification hack-border">
+		          <img src="icons/pt.png" alt="Hospitals">
+		        </article>
+	      	</div>
+      	</div>
+
+	<!-- <footer class="footer">
+	  	<div class="content has-text-centered">
+	  		<h3 class="black-text is-h3">GovHack 2018</h3>
+	    	<h3 class="black-text is-h3">Powered by <a href="#">Open Data!</a></h3>
+	  	</div>
+	</footer> -->
+
+	</section>
+
+	</div>
+  
+
+
+</body>
+</html>
