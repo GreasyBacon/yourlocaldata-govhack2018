@@ -14,10 +14,9 @@
 </head>
 
 <body style="text-align: center;">
-  <!-- <script src="js/scripts.js"></script> -->
+	<script src="js/council.js"></script>
 
-	<div class="hero is-light is-bold is-fullheight">
-
+	<div class="hero is-fullheight">
 	<section>
 		<div class="hero-body">
 			<div class="container">
@@ -25,7 +24,138 @@
 		  		<h1 class="title is-1" style="font-size: 98px; font-style: bold;"><i>Kingston Council</i></h1>
 			</div>
 		</div>
+
+		<div class="bordered" style="margin: 0px 20px;">
+			<h1 class="title is-1" style="padding-top: 20px;">How do we compare? (2016-2017)</h1>
+			<div class="tile is-thin is-parent is-horizontal">
+		        <article class="tile is-child notification hack-border"">
+		          <!-- <img style="max-height: 64px;" src="icons/afl.png"> -->
+		          <div class="stat-container">
+		          	<h1 class="title is-1" style="flex-basis: 65%; font-size: 64px; margin-bottom: 0px;">55.93%</h1>
+	          		<svg aria-hidden="true" style="flex-basis: 35%; max-height: 48px;" data-prefix="fas" data-icon="chevron-circle-up" class="svg-inline--fa fa-chevron-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#00ff00" d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z"></path></svg>
+	          		</div>
+	          		<div style="margin: 20px;"></div>
+		          <h2 style="margin-bottom: 20px;" class="title is-2"><i>Animals reclaimed from council</i></h2>
+		        </article>
+		        <article class="tile is-child notification hack-border" onclick="showModal()">
+		          <!-- <img src="icons/baseball.png"> -->
+		          <div class="stat-container">
+		          	<h1 class="title is-1" style="flex-basis: 65%; font-size: 64px; margin-bottom: 0px;">60/100</h1>
+	          		<svg aria-hidden="true" style="flex-basis: 35%; max-height: 48px;" data-prefix="fas" data-icon="chevron-circle-up" class="svg-inline--fa fa-chevron-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#00ff00" d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z"></path></svg>
+	          		</div>
+	          		<br>
+		          <h2 style="margin-bottom: 20px;" class="title is-2"><i>Community satisfaction with council decisions</i></h2>
+		        </article>
+	      	</div>
+	      	<div class="tile is-thin is-parent is-horizontal">
+		        <article class="tile is-child notification hack-border">
+		          <!-- <img style="max-height: 64px;" src="icons/afl.png"> -->
+		          <div class="stat-container">
+		          	<h1 class="title is-1" style="flex-basis: 65%; font-size: 64px; margin-bottom: 0px;">98.92%</h1>
+	          		<svg aria-hidden="true" style="flex-basis: 35%; max-height: 48px;" data-prefix="fas" data-icon="chevron-circle-up" class="svg-inline--fa fa-chevron-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#00ff00" d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z"></path></svg>
+	          		</div>
+	          		<br>
+	          		<h2 style="margin-bottom: 20px;" class="title is-2"><i>Sealed local roads maintained to condition standards</i></h2>
+		        </article>
+		        <article class="tile is-child notification hack-border">
+		          <!-- <img src="icons/baseball.png"> -->
+		          <div class="stat-container">
+		          	<h1 class="title is-1" style="flex-basis: 65%; font-size: 64px; margin-bottom: 0px;">50.09%</h1>
+	          		<svg aria-hidden="true" style="flex-basis: 35%; max-height: 48px;" data-prefix="fas" data-icon="chevron-circle-up" class="svg-inline--fa fa-chevron-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#00ff00" d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z"></path></svg>
+	          		</div>
+	          		<br>
+	          		<h2 style="margin-bottom: 20px;" class="title is-2"><i>Kerbside collection waste diverted from landfill</i></h2>
+		        </article>
+	      	</div>
+      	</div>
+      	<br>
+      	<div class="bordered" style="margin: 0px 20px;">
+			<h1 class="title is-1" style="padding-top: 20px;">Where we're excelling! (Q4 2017)</h1>
+			<div class="tile is-thin is-parent is-horizontal" style="margin-left:10px;">
+		        <article class="tile is-2 is-child notification" style="min-height: 1em;">
+		          <h1 class="title is-1">9</h1>
+		        </article>
+		        <article class="tile is-child" style="min-height: 1em; text-align: left;">
+		          <h2 class="title is-1">kilometres of footpath renewed</h2>
+		        </article>
+	      	</div>
+	      	<div class="tile is-thin is-parent is-horizontal" style="margin-left:10px;">
+		        <article class="tile is-2 is-child notification" style="min-height: 1em;">
+		          <h1 class="title is-1">17</h1>
+		        </article>
+		        <article class="tile is-child" style="min-height: 1em; text-align: left;">
+		          <h2 class="title is-1">thousand total volunteer hours</h2>
+		        </article>
+	      	</div>
+	      	<div class="tile is-thin is-parent is-horizontal" style="margin-left:10px;">
+		        <article class="tile is-2 is-child notification" style="min-height: 1em;">
+		          <h1 class="title is-1">1.04</h1>
+		        </article>
+		        <article class="tile is-child" style="min-height: 1em; text-align: left;">
+		          <h2 class="title is-1">million library loans</h2>
+		        </article>
+	      	</div>
+	      	<div class="tile is-thin is-parent is-horizontal" style="margin-left:10px;">
+		        <article class="tile is-2 is-child notification" style="min-height: 1em;">
+		          <h1 class="title is-1">69</h1>
+		        </article>
+		        <article class="tile is-child" style="min-height: 1em; text-align: left;">
+		          <h2 class="title is-1">new school crossings</h2>
+		        </article>
+	      	</div>
+      	</div>
+      	<br>
+      	<div class="bordered" style="margin: 0px 20px;">
+			<h1 class="title is-1" style="padding-top: 20px;">What we're still working on... (Q4 2017)</h1>
+			<div class="tile is-thin is-parent is-horizontal" style="margin-left:10px;">
+		        <article class="tile is-child notification" style="min-height: 1em;">
+		          <h1 class="title is-1">Cutting down time (105 to 85 days) to decide <a href="#" style="color: blue;">planning applications</a></h1>
+		        </article>
+	      	</div>
+	      	<div class="tile is-thin is-parent is-horizontal" style="margin-left:10px;">
+		        <article class="tile is-child notification" style="min-height: 1em;">
+		          <h1 class="title is-1">Transitioning our <a href="#" style="color: blue;">Maternal Child Health services</a> to a new integrated state-wide software platform</h1>
+		        </article>
+	      	</div>
+	      	<div class="tile is-thin is-parent is-horizontal" style="margin-left:10px;">
+		        <article class="tile is-child notification" style="min-height: 1em;">
+		          <h1 class="title is-1">Finalise our <a href="#" style="color: blue;">Integrated Transport Strategy</a></h1>
+		        </article>
+	      	</div>
+      	</div>
 	</section>
+	<br>
+	<br>
+
+  <div class="modal" id="community_stats">
+  <div class="modal-background"></div>
+  <div class="modal-card" style="min-width: 80%;">
+    <header class="modal-card-head">
+      <h1 class="modal-card-title title is-1">Community Satisfaction</h1>
+      <button class="delete" onclick="hideModal()" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      <div class="stat-container">
+      	<h2 class="title is-2" style="flex-basis: 50%; margin-bottom: 0px;">Kingston</h2>
+      	<h1 class="title is-1" style="flex-basis: 50%; font-size: 64px; margin-bottom: 0px;">60<grey style="color:grey;">/100</grey></h1>
+	  </div>
+	  <br>	
+	  <div class="stat-container">
+      	<h2 class="title is-2" style="flex-basis: 50%; margin-bottom: 0px;">Similar Councils</h2>
+      	<h1 class="title is-1" style="flex-basis: 50%; font-size: 64px; margin-bottom: 0px;">59<grey style="color:grey;">/100</grey></h1>
+	  </div>
+	  <br>
+	  <div class="stat-container">
+      	<h2 class="title is-2" style="flex-basis: 50%; margin-bottom: 0px;">All Councils</h2>
+      	<h1 class="title is-1" style="flex-basis: 50%; font-size: 64px; margin-bottom: 0px;">54<grey style="color:grey;">/100</grey></h1>
+	  </div>
+	  <br>
+      <div>
+      	<h2 class="title is-2">This rating is sourced from an annual <a href="#"><i>Community Satisfaction Survey</i></a> that is coordinated by State Government and conducted by an independent research company on behalf of Victorian councils.</h2>
+      </div>
+    </section>
+  </div>
+</div>
 
 	</div>
   

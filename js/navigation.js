@@ -15,11 +15,14 @@ goTo = function(location) {
         case 'on_this_day':
         	window.location = 'on_this_day.en.html'
         	break;
+        case 'council':
+            window.location = 'council.en.html'
+            break;
     	case 'sports':
     		window.location = 'sports.en.html'
     		break;
     	case 'census':
-    		window.location = '100.en.html'
+    		window.location = 'census.en.html'
     		break;
     	case 'afl':
     		window.location = 'afl.en.html'
