@@ -31,6 +31,13 @@ body {
    -webkit-text-stroke-color: black;
 }
 
+.bordered-title {
+	color: white;
+	font-color: white;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
 .notification {
 	border-radius: 20px;
 	min-height: 3em;
@@ -47,6 +54,17 @@ body {
     width: 100%;
     color: white;
     text-align: center;
+}
+
+.index-bordered {
+	background-color: #8c8c8c;
+    border-radius: 20px;
+}
+
+.index-hack-border {
+	border-color: #8c8c8c;
+	border-style: solid;
+	border-width: 0px 10px;
 }
 
 .bordered {
